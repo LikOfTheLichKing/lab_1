@@ -6,5 +6,5 @@ int main(){
   double p=x*x - sqrt(fabs(x));
   double t = pow(x+a*a, 1/3);
   double y=p*p + t*t*t*t;
-  cout<<y;
+  std::cout<<y;
 }
